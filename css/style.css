@@ -1,0 +1,387 @@
+/* ================================
+Imports
+================================= */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
+@import url('font-awesome.min.css');
+@import url('overwrite.css');
+@import url('dlmenu.css');
+@import url('animate.css');
+
+/* ================================
+General
+================================= */
+body{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+
+}
+p {
+	padding-bottom: 0px;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.lead{
+	font-weight: 400;
+	margin: -bottom: 10px;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #2b2b2b;
+	border: none;
+	color: #fff;
+}
+
+.btn-theme,.btn-theme:hover,.btn-theme:focus{
+	color: #fff;
+}
+.btn-theme:hover{
+	background: transparent !important;
+	border-color: #999;
+	color: #999;
+}
+
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+
+
+
+/* ================================
+Home sections
+================================= */
+.center-h {
+	text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+
+}
+
+.content {
+	width: 100%;
+	padding: 10px;
+	padding-top: 80px;
+	margin: auto;
+}
+
+.snippet-body {
+	width: 70%;
+	/*border: 1px solid black;*/
+	padding: 10px;
+	padding-top: 80px;
+	margin: auto;
+	/*border: 1px solid black*/
+}
+
+.home-section-snippet {
+width: 100px;
+padding: 10px 0px 10px 0px;
+text-align: left;
+}
+
+.home-section {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+}
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 70px;
+}
+
+.section-heading h2 {
+	font-size: 38px;
+	text-transform: uppercase;
+}
+
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* --- section bg var --- */
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-gray {
+	background: #f8f8f8;
+}
+
+.bg-dark {
+	background: #575757;
+}
+
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #eee;
+}
+
+
+
+
+/* ================================
+Intro
+================================= */
+
+#intro{
+    height:635px;
+    width:100%;
+    /*background-color: #529abb;*/
+		background-color: #007FC5 ;
+
+    background-image: url(../img/bg-mac.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow-y:hidden;
+    text-align:center;
+    position:relative;
+}
+
+
+
+.intro-text {
+	position:relative;
+	width:100%;
+	margin-top:200px;
+	z-index:1000;
+}
+#intro .brand {
+	margin-top: 40px;
+}
+.intro-text h1 a {
+	color:#fff;
+	text-align:center;
+	font-weight: 700;
+	font-size: 40px;
+	line-height:1.1em;
+	padding-top:30px;
+	text-transform: uppercase;
+}
+.intro-text h1 a:hover {
+	text-decoration: none;
+}
+
+.line-spacer {
+	width: 20%;
+	margin:0 auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom:1px solid #fff;
+}
+
+.intro-text p span {
+	color:#fff;
+	font-size: 24px;
+	text-align:center;
+	font-weight: 300;
+}
+
+
+
+/* ================================
+Bottom widget
+================================= */
+ul.social-network {
+	margin: 0;
+	margin-left:0;
+	padding-left: 0;
+	list-style: none;
+	/*border: 1px solid black;*/
+}
+ul.social-network li {
+	display: inline;
+	margin: 5px 5px;
+
+}
+
+ul.social-network li a:hover span .fa-circle {
+	color: #007FC5;
+}
+
+#inner {
+	margin-bottom: 60px;
+	/*border: 1px solid black;*/
+}
+/*#inner2 {
+	border: 1px solid black;
+}*/
+#inner3 {
+	width: 100%;
+	margin-left: : auto;
+	margin-right: auto;
+	/*border: 1px solid black;*/
+}
+
+/* ================================
+Footer
+================================= */
+footer {
+	position: fixed !important;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: #2b2b2b;
+	color: #ddd;
+	padding: 10px 0 10px;
+}
+
+
+/*========================================================*/
+
+@media (max-width:992px) {
+
+
+	.service p{
+			margin-bottom: 60px;
+	}
+
+}
+
+@media (max-width:480px){
+	#intro{
+		background-image: none;
+	}
+}
+
+/* Custom */
+
+
+.navbar-fixed-top { position: absolute!important; }
+
+
+.btn {
+	margin: 10px;
+}
+
+.lib-link {
+	color: white;
+	float: left;
+	text-decoration: none !important;
+}
+
+a {
+	color: #007FC5;
+}
+
+.poem-head-link {
+	color: black;
+	text-decoration: none !important
+}
+
+
+.navbar {
+	background-color: #007FC5;
+}
+
+.btn-color {
+	background-color: #007FC5;
+}
+
+.navbar-nav > li > a {
+   line-height: 50px;
+	 font-size: 18px;
+}
+
+.navbar-brand {
+   line-height: 50px;
+	 font-size: 25px;
+}
+
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+
+.navbar-brand, .nav-link{
+    color: white;
+
+}
+.nav-link {
+	color: white;
+
+}
+
+body {overflow-x: hidden;}

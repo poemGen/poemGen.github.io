@@ -17,6 +17,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
+	overflow-x: hidden;
 
 }
 p {
@@ -116,6 +117,7 @@ Home sections
 ================================= */
 .center-h {
 	text-align: center;
+	/*color: #cdcdcd;*/
 }
 
 .col-centered{
@@ -217,6 +219,22 @@ Intro
     overflow-y:hidden;
     text-align:center;
     position:relative;
+		overflow-x: hidden;
+}
+
+#intro2{
+    /*height:635px;*/
+    width:100%;
+    /*background-color: #529abb;*/
+		background-color: white ;
+
+
+    /*background-position:center;
+    background-repeat:no-repeat;*/
+    overflow-y:hidden;
+    /*text-align:center;*/
+    position:relative;
+		overflow-x: hidden;
 }
 
 
@@ -289,8 +307,8 @@ ul.social-network li a:hover span .fa-circle {
 }*/
 #inner3 {
 	width: 100%;
-	margin-left: : auto;
-	margin-right: auto;
+	/*margin-left: auto !important ;
+	margin-right: auto !important;*/
 	/*border: 1px solid black;*/
 }
 
@@ -325,7 +343,22 @@ footer {
 	}
 }
 
+@media (min-width: 481px) {
+    span.icon {display:none}
+    span.text {display:inline-block}
+		a.lib-link {float: left}
+}
+
+@media (max-width: 480px) {
+    span.icon {display:inline-block}
+    span.text {display:none}
+		div#inner3 {margin-left: auto;
+			margin-right: auto;	}
+}
+
 /* Custom */
+
+
 
 
 .navbar-fixed-top { position: absolute!important; }
@@ -337,7 +370,7 @@ footer {
 
 .lib-link {
 	color: white;
-	float: left;
+	/*float: left;*/
 	text-decoration: none !important;
 }
 
@@ -367,6 +400,15 @@ a {
 .navbar-brand {
    line-height: 50px;
 	 font-size: 25px;
+	 top: 30px;
+	 bottom: 20px:
+
+}
+
+.logo {
+	color: white;
+	text-decoration: none !important;
+
 }
 
 

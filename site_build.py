@@ -141,6 +141,8 @@ snippets = strip_tags(allSnippets)
 
 print build_snippet_page(snippets)
 
+print "site rebuild complete"
+
 
 
 

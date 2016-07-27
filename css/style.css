@@ -376,6 +376,7 @@ footer {
     span.icon {display:none}
     span.text {display:inline-block}
 		a.lib-link {float: left}
+	div#unicorn-404 {left: -100px};
 }
 
 @media (max-width: 480px) {
@@ -476,4 +477,9 @@ body {overflow-x: hidden;}
 	bottom: 0px;
 	/*left: 110px;*/
 
+}
+
+#unicor-404 {
+	top: 0px;
+	bottom: 0px;
 }

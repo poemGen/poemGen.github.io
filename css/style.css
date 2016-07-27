@@ -10,7 +10,24 @@ Imports
 /* ================================
 General
 ================================= */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body{
+	padding-bottom: 6rem;
+  min-height: 100%;
+	position: relative;
+
+
+
 	margin:0;
 	padding:0;
 	text-align: center;
@@ -220,6 +237,8 @@ Intro
     text-align:center;
     position:relative;
 		overflow-x: hidden;
+
+
 }
 
 #intro2{
@@ -299,16 +318,26 @@ ul.social-network li a:hover span .fa-circle {
 }
 
 #inner {
-	margin-bottom: 60px;
-	/*border: 1px solid black;*/
+	/*margin-bottom: 60px;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	border: 1px solid black;*/
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+margin-bottom: 50px;
+padding: 1rem;
 }
 /*#inner2 {
 	border: 1px solid black;
 }*/
 #inner3 {
 	width: 100%;
-	/*margin-left: auto !important ;
-	margin-right: auto !important;*/
+	right: 0px;
+	left: 0px;
 	/*border: 1px solid black;*/
 }
 
@@ -358,7 +387,21 @@ footer {
 
 /* Custom */
 
+.content {
+	padding-bottom: 160px;
+}
 
+.snippet-body {
+	padding-bottom: 180px;
+}
+
+.content-body {
+	padding-bottom: 160px;
+}
+
+.social-pos {
+	padding-bottom: 200px;
+}
 
 
 .navbar-fixed-top { position: absolute!important; }
@@ -427,3 +470,10 @@ a {
 }
 
 body {overflow-x: hidden;}
+
+.social-position {
+	position: fixed;
+	bottom: 0px;
+	/*left: 110px;*/
+
+}

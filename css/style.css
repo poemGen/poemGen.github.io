@@ -44,6 +44,8 @@ p {
 h1 {
 	font-size: 36px;
 }
+
+
 h2 {
 	font-size: 32px;
 }
@@ -271,7 +273,7 @@ Intro
 	color:#fff;
 	text-align:center;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 38px;
 	line-height:1.1em;
 	padding-top:30px;
 	text-transform: uppercase;
@@ -357,11 +359,36 @@ footer {
 
 /*========================================================*/
 
-@media (max-width:992px) {
+@media (max-width: 660px) {
+	.site404 {
+		margin-left: auto;
+		margin-right: auto;
+		overflow-x: hidden !important;
+	}
+}
 
+@media (max-width:992px) {
 
 	.service p{
 			margin-bottom: 60px;
+	}
+
+}
+
+@media (max-width:700px){
+	#unicorn-img {
+		width:100%;
+		max-width:400px;
+		padding-bottom: 150px;
+	}
+	.site404 {
+	font-size: 32px;
+	}
+}
+@media (max-width:600px){
+	#unicorn-img {
+		width:100%;
+		max-width:300px;
 	}
 
 }
@@ -370,13 +397,22 @@ footer {
 	#intro{
 		background-image: none;
 	}
+	#unicorn-img {
+		width:100%;
+		max-width:200px;
+		padding-bottom: 150px;
+		
+	}
+	.site404 {
+	font-size: 32px;
+	}
 }
 
 @media (min-width: 481px) {
     span.icon {display:none}
     span.text {display:inline-block}
 		a.lib-link {float: left}
-	div#unicorn-404 {left: -100px};
+	
 }
 
 @media (max-width: 480px) {
@@ -384,9 +420,12 @@ footer {
     span.text {display:none}
 		div#inner3 {margin-left: auto;
 			margin-right: auto;	}
+
 }
 
 /* Custom */
+
+
 
 .content {
 	padding-bottom: 160px;
@@ -479,7 +518,8 @@ body {overflow-x: hidden;}
 
 }
 
-#unicor-404 {
-	top: 0px;
-	bottom: 0px;
-}
+
+/*#unicorn-404 {*/
+/*	top: 0px;*/
+/*	bottom: 0px;*/
+/*}*/
